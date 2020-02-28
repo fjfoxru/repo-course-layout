@@ -1,19 +1,20 @@
 @font-face {
     font-family: "OpenSans-Bold";
-        url(../fonts/OpenSans-Bold.ttf) format("truetype"),
+        src: url(../fonts/OpenSans-Bold.ttf) format("truetype"),
         url(../fonts/OpenSans-Bold.woff) format("woff"),
         url(../fonts/OpenSans-Bold.woff2) format("woff2");
 
 }
 @font-face {
     font-family: "OpenSans-Regular";
-        url(../fonts/OpenSans-Regular.ttf) format("truetype"),
+        src: url(../fonts/OpenSans-Regular.ttf) format("truetype"),
         url(../fonts/OpenSans-Regular.woff) format("woff"),
-        url(../fonts/OpenSans-Regular.woff2) format("woff2"),
+        url(../fonts/OpenSans-Regular.woff2) format("woff2");
 }
 
 body {
     margin: 0;
+    font-family: "OpenSans-Regular";
 }
 
 h1, h2, h3, h4, h5, h6 {
