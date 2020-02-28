@@ -1,0 +1,26 @@
+
+
+.wrapper {
+    padding: 0px 20px;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-color-ffffff {
+    background: #ffffff;
+    height: 305px;
+}
+.wrapper-color-fafafa {
+    background: #fafafa;
+    padding-top: 84px;
+}
+.wrapper-color-f5f4f9 {
+    background: #f5f4f9;
+    padding-top: 60px;
+}
+.wrapper-color-5e42b0 {
+    background: #5e42b0;
+    padding-top: 60px;
+}
