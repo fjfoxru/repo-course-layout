@@ -47,6 +47,7 @@
     .buttons {
         flex-direction: row;
         justify-content: space-around;
+        margin-bottom: 90px;
     }
 
     .button:first-of-type {

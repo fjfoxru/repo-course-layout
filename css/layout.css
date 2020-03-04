@@ -8,27 +8,41 @@
     flex-direction: column;
 }
 
-.wrapper-color:nth-of-type(1) {
+.color {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+
+.color:nth-of-type(1) {
+    padding-top: 25px;
     background: #ffffff;
     height: 305px;
+    box-sizing: border-box;
 }
-.wrapper-color:nth-of-type(2) {
+.color:nth-of-type(2) {
     background: #fafafa;
-    padding-top: 84px;
-    padding-bottom: 50px;
 }
-.wrapper-color:nth-of-type(3) {
+.color:nth-of-type(3) {
     background: #f5f4f9;
-    padding-top: 60px;
-    padding-bottom: 50px;
 }
-.wrapper-color:nth-of-type(4) {
+.color:nth-of-type(4) {
     background: #5e42b0;
-    padding-top: 60px;
-    padding-bottom: 50px;
+}
+.color:nth-of-type(4) .item-title-num::after {
+    background: #ffffff;
+}
+.color:nth-of-type(4) .item-text {
+    color: #ffffff;
 }
 
 
+.cells-wrapper {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
 
 
 @media (min-width: 768px) {
@@ -41,19 +55,25 @@
     .about-img:last-of-type {
         margin-right: 260px;
     }
-    .wrapper {
+    .wrapper, .cells-wrapper {
         padding: 0px 32px;
     }
-    .wrapper-color:nth-of-type(1) {
+
+    .about:nth-of-type(1) .color .wrapper {
+        align-items: flex-end;
+    }
+
+
+    .color:nth-of-type(1) {
         height: auto;
         padding-top: 60px;
         padding-bottom: 35px;
     }
-    .wrapper-color:nth-of-type(2) {
+    .color:nth-of-type(2) {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .wrapper-color:nth-of-type(3) {
+    .color:nth-of-type(3) {
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -71,24 +91,24 @@
         margin-left: 714px;
     }
 
-
-    .wrapper-about {
-        width: 50%;
-    }
-
     .cell {
         display: flex;
-        flex-wrap: wrap;
     }
+
+    .cell:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+
     .cells-img {
 
         width: 50%;
 
     }
-    .cell .wrapper {
-
-        width: 47%;
-
+    .cells-wrapper {
+        margin: auto;
+        width: 1560px;
+        width: 50%;
+        flex-direction: row;
     }
 
 
