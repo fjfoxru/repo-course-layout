@@ -1,10 +1,11 @@
+<html>
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/buttons.css">
-    <link rel="stylesheet" href="css/layout.css">
 
 </head>
+
+<body>
+
 
 <main class="main">
 <header class="header">
@@ -50,7 +51,19 @@
 
 <section class="about">
 
-    <img class="about-img" src="images/footballer_192.png">
+
+    <picture>
+        <source
+                media="(min-width: 1560px)"
+                srcset="images/footballer_566.png">
+        <source
+                media="(min-width: 768px)"
+                srcset="images/footballer_497.png">
+        <img src="images/footballer_192.png"
+             alt="image"
+             class="about-img">
+    </picture>
+
 
     <div class="color">
         <article class="wrapper">
@@ -92,7 +105,21 @@
 
 <section class="about">
 
-    <img class="about-img" src="images/basketballer_302.png">
+    <picture>
+        <source
+                media="(min-width: 1560px)"
+                srcset="images/basketballer_991.png">
+        <source
+                media="(min-width: 768px)"
+                srcset="images/basketballer_436.png">
+        <img src="images/basketballer_302.png"
+             alt="image"
+             class="about-img">
+    </picture>
+
+
+
+
     <div class="color">
     <article class="wrapper">
         <div class="item">
@@ -134,7 +161,23 @@
 <section class="cells">
 
     <article class="cell">
-        <img class="cells-img" src="images/be-active_640.jpg">
+
+        <picture class="cells-img-wrapper">
+            <source
+                    media="(min-width: 1024px)"
+                    srcset="images/be-active_1024.jpg">
+            <source
+                    media="(min-width: 768px)"
+                    srcset="images/be-active_960.jpg">
+            <source
+                    media="(min-width: 320px)"
+                    srcset="images/be-active_640.jpg">
+
+            <img src="images/be-active.jpg"
+                 alt="image"
+                 class="cells-img">
+        </picture>
+
         <div class="cells-wrapper">
             <div class="cells-number"><span class="cells-number-in">01</span></div>
             <div class="cells-content">
@@ -146,7 +189,24 @@
 
 
     <article class="cell">
-        <img class="cells-img" src="images/find-contact_640.jpg">
+
+        <picture class="cells-img-wrapper">
+            <source
+                    media="(min-width: 1024px)"
+                    srcset="images/find-contact_1024.jpg">
+            <source
+                    media="(min-width: 768px)"
+                    srcset="images/find-contact_960.jpg">
+            <source
+                    media="(min-width: 320px)"
+                    srcset="images/find-contact_640.jpg">
+
+            <img src="images/find-contact.jpg"
+                 alt="image"
+                 class="cells-img">
+        </picture>
+
+
         <div class="cells-wrapper">
             <div class="cells-number"><span class="cells-number-in">02</span></div>
             <div class="cells-content">
@@ -158,7 +218,23 @@
 
 
     <article class="cell">
-        <img class="cells-img" src="images/work-it_640.jpg">
+
+        <picture class="cells-img-wrapper">
+            <source
+                    media="(min-width: 1024px)"
+                    srcset="images/work-it_1024.jpg">
+            <source
+                    media="(min-width: 768px)"
+                    srcset="images/work-it_960.jpg">
+            <source
+                    media="(min-width: 320px)"
+                    srcset="images/work-it_640.jpg">
+
+            <img src="images/work-it.jpg"
+                 alt="image"
+                 class="cells-img">
+        </picture>
+
         <div class="cells-wrapper">
             <div class="cells-number"><span class="cells-number-in">03</span></div>
             <div class="cells-content">
@@ -182,18 +258,22 @@
 
     <footer class="footer">
         <div class="wrapper">
+            <div class="app">
+                <svg class="app-logo" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
+                    <g fill-rule="evenodd">
+                        <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
+                        <path d="M42.5 107h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zm0 70h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zM8 143h168a8 8 0 1 0 0-16H8a8 8 0 1 0 0 16z" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                </svg>
 
-            <svg class="app-logo" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/svg">
-                <g fill-rule="evenodd">
-                    <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
-                    <path d="M42.5 107h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zm0 70h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zM8 143h168a8 8 0 1 0 0-16H8a8 8 0 1 0 0 16z" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"/>
-                </g>
-            </svg>
 
 
-            <h3 class="app-title">download app</h3>
-            <h4 class="app-info">Show everyone what you can do!</h4>
+                <div class="app-content">
+                <h3 class="app-title">download app</h3>
+                <h4 class="app-info">Show everyone what you can do!</h4>
+                </div>
 
+            </div>
 
 
             <div class="buttons">
@@ -237,3 +317,7 @@
 
 
     </main>
+
+
+</body>
+</html>
