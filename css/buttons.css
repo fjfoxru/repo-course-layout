@@ -1,5 +1,5 @@
 
-/*Кнопки------------------------------------------*/
+
 .buttons {
     margin-bottom: 84px;
     display: flex;
@@ -38,11 +38,37 @@
 .button-text {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
+@media (min-width: 768px) {
+
+    .buttons {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .button:first-of-type {
+        margin-bottom: 0;
+    }
+
+    .button {
+        border-radius: 35px;
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+    .button-content {
+        padding-left: 41px;
+        min-width: 315px;
+        box-sizing: border-box;
+    }
+
+    .button-img {
+        width: 44px;
+        margin-right: 26px;
+    }
 
 
-
-
-/*Кнопки------------------------------------------*/
+}

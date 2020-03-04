@@ -167,6 +167,7 @@
     color: #fff;
     font-size: 32px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .app-info {
@@ -205,4 +206,28 @@
     left: 0;
     background-color: #17183a;
     opacity: 0.9;
+}
+
+
+@media (min-width: 768px) {
+
+    .item-img {
+        position: absolute;
+        height: 100%;
+    }
+    .ATHLETS .item-img {
+        left: -189px;
+        top: 90px;
+    }
+    .PLAYERS .item-img {
+        right: -274px;
+        top: -3px;
+    }
+
+
+    .cells-number {
+        padding: 45px;
+    }
+
+
 }
