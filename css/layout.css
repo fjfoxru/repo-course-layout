@@ -8,21 +8,21 @@
     flex-direction: column;
 }
 
-.wrapper-color-ffffff {
+.wrapper-color:nth-of-type(1) {
     background: #ffffff;
     height: 305px;
 }
-.wrapper-color-fafafa {
+.wrapper-color:nth-of-type(2) {
     background: #fafafa;
     padding-top: 84px;
     padding-bottom: 50px;
 }
-.wrapper-color-f5f4f9 {
+.wrapper-color:nth-of-type(3) {
     background: #f5f4f9;
     padding-top: 60px;
     padding-bottom: 50px;
 }
-.wrapper-color-5e42b0 {
+.wrapper-color:nth-of-type(4) {
     background: #5e42b0;
     padding-top: 60px;
     padding-bottom: 50px;
@@ -32,28 +32,28 @@
 
 
 @media (min-width: 768px) {
-    .ATHLETS, .PLAYERS {
+    .about {
         position: relative;
     }
-    .ATHLETS .wrapper {
+    .about-img:first-of-type {
         margin-left: 260px;
     }
-    .PLAYERS .wrapper {
+    .about-img:last-of-type {
         margin-right: 260px;
     }
     .wrapper {
         padding: 0px 32px;
     }
-    .wrapper-color-ffffff {
+    .wrapper-color:nth-of-type(1) {
         height: auto;
         padding-top: 60px;
         padding-bottom: 35px;
     }
-    .wrapper-color-fafafa {
+    .wrapper-color:nth-of-type(2) {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-    .wrapper-color-f5f4f9 {
+    .wrapper-color:nth-of-type(3) {
         padding-top: 40px;
         padding-bottom: 40px;
     }
@@ -67,8 +67,13 @@
         padding: 0px 12px;
     }
 
-    .ATHLETS .wrapper {
+    .about-img:first-of-type {
         margin-left: 714px;
+    }
+
+
+    .wrapper-about {
+        width: 50%;
     }
 
     .cell {

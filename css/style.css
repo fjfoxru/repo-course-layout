@@ -92,7 +92,7 @@
 
 
 
-.item-img {
+.about-img {
     align-self: center;
 }
 
@@ -211,15 +211,15 @@
 
 @media (min-width: 768px) {
 
-    .item-img {
+    .about-img {
         position: absolute;
         height: 100%;
     }
-    .ATHLETS .item-img {
+    .about-img:first-of-type {
         left: -189px;
         top: 90px;
     }
-    .PLAYERS .item-img {
+    .about-img:last-of-type {
         right: -274px;
         top: -3px;
     }
